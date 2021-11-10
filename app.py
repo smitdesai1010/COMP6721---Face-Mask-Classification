@@ -125,7 +125,7 @@ for epoch in range(EPOCH):
 
 #----------------------------------------Model save and load--------------------------
 checkpoint = {
-          'model': CNN_MODEL().to(DEVICE),
+          'model': CNN_MODEL(),
           'state_dict': model.state_dict(),
           'optimizer' : optimizer.state_dict()
         }
@@ -134,7 +134,7 @@ torch.save(checkpoint, MODEL_FILEPATH)
 
 def load_checkpoint(filepath):
     checkpoint = torch.load(filepath)
-    model = checkpoint['model']
+    model = checkpoint['model'].to(DEVICE)
     model.load_state_dict(checkpoint['state_dict'])
     for parameter in model.parameters():
         parameter.requires_grad = False
