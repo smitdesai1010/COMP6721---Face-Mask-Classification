@@ -8,7 +8,6 @@ from torchsummary import summary
 
 
 MODEL_FILEPATH = os.path.join(os.path.abspath(os.curdir),'Model/model.pth')
-DEVICE = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 EPOCH = 5
 
 
