@@ -14,10 +14,6 @@ https://medium.com/@dipti.rohan.pawar/improving-performance-of-convolutional-neu
 #### Pytorch and CNNs
 https://medium.com/thecyphy/train-cnn-model-with-pytorch-21dafb918f48
 
-#### Installing pytorch
-```
-pip3 install torch==1.10.0+cu102 torchvision==0.11.1+cu102 torchaudio===0.10.+cu102 -f https://download.pytorch.org/whl/cu102/torch_stable.html
-```
 
 #### Preprocessing using torchvision
 https://medium.com/secure-and-private-ai-writing-challenge/loading-image-using-pytorch-c2e2dcce6ef2
