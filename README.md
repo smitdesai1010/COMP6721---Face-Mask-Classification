@@ -1,20 +1,33 @@
 # COMP6721---Face-Mask-Classification
 
-## Medium links
+Get added to our private github repo and download the repository
 
-#### What are CNNs
-https://medium.com/nybles/a-brief-guide-to-convolutional-neural-network-cnn-642f47e88ed4
-https://prvnk10.medium.com/cnn-architectures-ecefaa2359ff
+```
+https://github.com/smitdesai1010/COMP6721---Face-Mask-Classification.git
+```
+
+- Install Python 3.8 and pip. 
+- Build and activate a python virtual environment
+- Run the following command
+
+```
+pip install requirements.txt
+```
+
+To run the project: 
+```
+python app.py
+```
 
 
-#### How to improve CNN architecture
-https://medium.com/@dipti.rohan.pawar/improving-performance-of-convolutional-neural-network-2ecfe0207de7
+#### File description
 
+- app.py : Main file that imports other classes and methods defined by us. It first loads the preprocessed data, then builds the model and optimizer, trains the model and saves it and then the model is loaded again and evaluated
 
-#### Pytorch and CNNs
-https://medium.com/thecyphy/train-cnn-model-with-pytorch-21dafb918f48
+- preprocess.py : Loads the dataset, applies various transformation, splits into training-testing and loads data into batches
 
+- CNN.py : Contains a class that builds, trains and returns a CNN network. Also there are methods to load and save a method.
 
-#### Preprocessing using torchvision
-https://medium.com/secure-and-private-ai-writing-challenge/loading-image-using-pytorch-c2e2dcce6ef2
-https://pytorch.org/vision/stable/transforms.html
+- train.py : trains the model on training data
+
+- test.py : Evaluates the model on testing data and generates the confusion matrix

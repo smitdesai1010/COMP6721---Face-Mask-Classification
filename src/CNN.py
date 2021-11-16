@@ -2,19 +2,61 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class MODEL(nn.Module):
+class CNN(nn.Module):
+      def __init__(self):
+            super(CNN, self).__init__()
+            self.conv_layer = nn.Sequential(
+                  nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, padding=1),
+                  nn.BatchNorm2d(32),
+                  nn.LeakyReLU(inplace=True),
+
+                  nn.Conv2d(in_channels=32, out_channels=32, kernel_size=3, padding=1),
+                  nn.BatchNorm2d(32),
+                  nn.LeakyReLU(inplace=True),
+                  nn.MaxPool2d(kernel_size=2, stride=2),
+
+                  nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1),
+                  nn.BatchNorm2d(64),
+                  nn.LeakyReLU(inplace=True),
+
+                  nn.Conv2d(in_channels=64, out_channels=64, kernel_size=3, padding=1),
+                  nn.BatchNorm2d(64),
+                  nn.LeakyReLU(inplace=True),
+                  nn.MaxPool2d(kernel_size=2, stride=2),
+            )
+            self.fc_layer = nn.Sequential(
+                  nn.Dropout(p=0.1),
+
+                  nn.Linear(8 * 8 * 64, 1000),
+                  nn.ReLU(inplace=True),
+
+                  nn.Linear(1000, 512),
+                  nn.ReLU(inplace=True),
+                  nn.Dropout(p=0.1),
+
+                  nn.Linear(512, 4)
+            )
+
+      def forward(self, tensor):
+            tensor = self.conv_layer(tensor)
+            tensor = tensor.view(tensor.size(0), -1)
+            tensor = self.fc_layer(tensor)
+            return tensor
+
+class MODEL1(nn.Module):
    def __init__(self):
-     super(MODEL, self).__init__()   
+     super(MODEL1, self).__init__()   
      #dimension of our tensor: [BATCH_SIZE,3,IMG_SIZE,IMG_SIZE]
-     
+     # pytoch NN class has 2 types of layers - liner and convolutional layers
+     # 1 input channel as out image is rgb, output channel is filter , stride is 1 default and padding is 0 default
      self.convolutional_1 = nn.Conv2d(in_channels=3, out_channels=6, kernel_size=6)   
-     self.convolutional_2 = nn.Conv2d(in_channels=6, out_channels=12, kernel_size=6)      
+     self.convolutional_2 = nn.Conv2d(in_channels=6, out_channels=12, kernel_size=6)
 
      # Fully Connetected linear OR dense layers (flattaned from previous layer of conv)
      self.fully_connected_1 = nn.Linear(in_features=12*12*12, out_features=120)     #4x4 is dimension of each of the 12 channels 
      self.fully_connected_2 = nn.Linear(in_features=120, out_features=60)
      self.output = nn.Linear(in_features=60, out_features=4)
-
+    # no. of output channels are result of applying filter(kernal) on it
      #FORMULA: (width_of_input - kernel_size + 1)/stride
 
    def forward(self, tensor):        
@@ -46,7 +88,7 @@ class MODEL(nn.Module):
 
      return tensor
 
-
+#saving the model into the folder model
 def save_model(model,optimizer,MODEL_FILEPATH):
       model_info = {
             'model': MODEL(),
@@ -56,7 +98,7 @@ def save_model(model,optimizer,MODEL_FILEPATH):
 
       torch.save(model_info, MODEL_FILEPATH)
 
-
+#loading the model
 def load_model(MODEL_FILEPATH,DEVICE):
       model_info = torch.load(MODEL_FILEPATH)
       model = model_info['model'].to(DEVICE)

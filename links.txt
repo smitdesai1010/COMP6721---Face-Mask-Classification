@@ -1,0 +1,60 @@
+## Medium links
+
+#### What are CNNs
+https://medium.com/nybles/a-brief-guide-to-convolutional-neural-network-cnn-642f47e88ed4
+https://prvnk10.medium.com/cnn-architectures-ecefaa2359ff
+
+
+#### How to improve CNN architecture
+https://medium.com/@dipti.rohan.pawar/improving-performance-of-convolutional-neural-network-2ecfe0207de7
+
+
+#### Pytorch and CNNs
+https://medium.com/thecyphy/train-cnn-model-with-pytorch-21dafb918f48
+
+
+#### Preprocessing using torchvision
+https://medium.com/secure-and-private-ai-writing-challenge/loading-image-using-pytorch-c2e2dcce6ef2
+https://pytorch.org/vision/stable/transforms.html
+
+
+
+
+Cloth mask:
+https://www.google.com/search?q=cloth%20face%20mask&tbm=isch&tbs=rimg:CYBzGWcUbmHiYYxDPbfPvOr1sgIGCgIIABAA&rlz=1C1CHBF_enIN925IN925&hl=en&sa=X&ved=0CCAQuIIBahcKEwj4ob67xuvzAhUAAAAAHQAAAAAQDA&biw=1519&bih=722
+https://www.google.com/search?q=cloth%20face%20mask&tbm=isch&tbs=rimg:CbmElFgCatwDYZg2agT1P3IhsgIGCgIIABAA&rlz=1C1CHBF_enIN925IN925&hl=en&sa=X&ved=0CCUQuIIBahcKEwiwyrCixuvzAhUAAAAAHQAAAAAQBw&biw=1519&bih=722
+https://www.google.com/search?q=people%20with%20cloth%20face%20mask&tbm=isch&hl=en&tbs=rimg:CZDGEraO64qOYbxZhyxOXGzdsgIGCgIIABAB&bih=722&biw=1519&rlz=1C1CHBF_enIN925IN925&sa=X&ved=0CAIQrnZqFwoTCPjio9qk8PMCFQAAAAAdAAAAABAd
+https://www.google.com/search?q=people%20with%20cloth%20face%20mask&tbm=isch&hl=en&tbs=rimg:CScqtJtTUYBKYRy-MxqMWsCtsgIGCgIIABAB&rlz=1C1CHBF_enIN925IN925&sa=X&ved=0CAIQrnZqFwoTCPjio9qk8PMCFQAAAAAdAAAAABAj&biw=1519&bih=722
+https://www.google.com/search?q=cloth%20face%20mask%20images&tbm=isch&tbs=rimg:CY1hIgHG0YzlYUaYxGesvSUZsgIGCgIIABAA&rlz=1C1CHBF_enIN925IN925&hl=en&sa=X&ved=0CAIQrnZqFwoTCLja6ZCl8PMCFQAAAAAdAAAAABAH&biw=1519&bih=722
+
+
+FFP2 mask:
+https://www.shutterstock.com/search/ffp2?mreleased=true&page=7
+https://www.google.com/search?q=FFP2%20mask%20images&tbm=isch&tbs=rimg:Cej54IZ1yS78Yd5PWzNYG8YTsgIGCgIIABAA&bih=722&biw=1536&rlz=1C1CHBF_enIN925IN925&hl=en&sa=X&ved=0CAIQrnZqFwoTCJjij-Wt8PMCFQAAAAAdAAAAABAG
+https://www.google.com/search?q=FFP2%20mask%20images&tbm=isch&tbs=rimg:CcQCwfH-wSX-YRLPrttKkiPqsgIGCgIIABAA&bih=722&biw=1536&rlz=1C1CHBF_enIN925IN925&hl=en&sa=X&ved=0CAIQrnZqFwoTCJjij-Wt8PMCFQAAAAAdAAAAABAN
+https://www.google.com/search?q=FFP2%20mask%20images&tbm=isch&tbs=rimg:CZ8_1beewg198YSg1b7s3QMzPsgIGCgIIABAA&bih=722&biw=1536&rlz=1C1CHBF_enIN925IN925&hl=en&sa=X&ved=0CAIQrnZqFwoTCJjij-Wt8PMCFQAAAAAdAAAAABAT
+
+
+Surgical mask: 
+https://github.com/cabani/MaskedFace-Net
+https://www.google.com/search?q=medical%20mask%20images%20people&tbm=isch&tbs=rimg:CewBZR_1bXqR7YRlpXxC-ruxcsgIGCgIIABAA&rlz=1C1CHBF_enIN925IN925&hl=en&sa=X&ved=0CAIQrnZqFwoTCPi9k4yq8PMCFQAAAAAdAAAAABAO&biw=1519&bih=722
+https://www.google.com/search?q=medical%20mask%20images%20people&tbm=isch&hl=en&tbs=rimg:CclBCzaBOyCUYZbWazrBKaM0sgIGCgIIABAA&bih=722&biw=1519&rlz=1C1CHBF_enIN925IN925&sa=X&ved=0CAIQrnZqFwoTCMijvqyq8PMCFQAAAAAdAAAAABAT
+https://www.google.com/search?q=medical%20mask%20images%20people&tbm=isch&hl=en&tbs=rimg:CRmb_1NZ-oUkKYRWlyzyY7H77sgIGCgIIABAA&bih=722&biw=1519&rlz=1C1CHBF_enIN925IN925&sa=X&ved=0CAIQrnZqFwoTCKC_qOCq8PMCFQAAAAAdAAAAABAG
+https://www.google.com/search?q=medical%20mask%20images%20people&tbm=isch&hl=en&tbs=rimg:CWIqU4Qsxu6AYcow2rkd8T_1fsgIGCgIIABAA&bih=722&biw=1519&rlz=1C1CHBF_enIN925IN925&sa=X&ved=0CAIQrnZqFwoTCMijvqyq8PMCFQAAAAAdAAAAABAM
+https://www.google.com/search?q=medical%20mask%20images%20people&tbm=isch&hl=en&tbs=rimg:CUG5Xnn7U-R_1YYJCzE9rDU3ysgIGCgIIABAA&bih=722&biw=1519&rlz=1C1CHBF_enIN925IN925&sa=X&ved=0CAIQrnZqFwoTCICHvcCq8PMCFQAAAAAdAAAAABAH
+https://www.google.com/search?q=medical%20mask%20images%20people&tbm=isch&hl=en&tbs=rimg:CahCMyOeKOnDYZ2Ga7BAlxh2sgIGCgIIABAA&bih=722&biw=1519&rlz=1C1CHBF_enIN925IN925&sa=X&ved=0CAIQrnZqFwoTCNja3b2r8PMCFQAAAAAdAAAAABAH
+
+
+No mask:
+https://www.kaggle.com/vinaykudari/facemask
+https://www.kaggle.com/spandanpatnaik09/face-mask-detectormask-not-mask-incorrect-mask
+
+Misc:
+https://humansintheloop.org/resources/datasets/mask-dataset-download/?submissionGuid=168b3ab4-a263-4c08-9c34-8ad672aa6e14
+https://www.kaggle.com/dhruvmak/face-mask-detection
+https://www.analyticsvidhya.com/blog/2019/10/building-image-classification-models-cnn-pytorch/
+
+Add mask:
+https://towardsdatascience.com/masktheface-cv-based-tool-to-mask-face-dataset-1a71d5b68703
+
+
