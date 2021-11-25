@@ -138,3 +138,4 @@ References/No-Mask.xlsx
 References/Surgical-Mask.xlsx
 Extra/train.py
 Extra/confusionMatrix.py
+Model/model.pth

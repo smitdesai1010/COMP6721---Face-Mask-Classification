@@ -5,7 +5,7 @@ from torchvision import transforms
 
 DATASET_DIR = os.path.join(os.path.abspath(os.curdir),'Dataset')
 CLASSES = ['Cloth-Mask','FFP2-Mask','No-Mask','Surgical-Mask']
-IMG_SIZE = 64 
+IMG_SIZE = 128 
 BATCH_SIZE = 32
 SHUFFLE = False
 
