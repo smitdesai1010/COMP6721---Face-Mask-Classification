@@ -131,11 +131,5 @@ dmypy.json
 
 
 # Custom
-images.txt
-References/Cloth-Mask.xlsx
-References/FFP2-Mask.xlsx
-References/No-Mask.xlsx
-References/Surgical-Mask.xlsx
-Extra/train.py
-Extra/confusionMatrix.py
-Model/model.pth
+References/*
+Extra/*
