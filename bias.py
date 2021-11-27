@@ -1,6 +1,5 @@
 import os
 import torch, torchvision
-from torchvision import transforms
 import src.preprocess as preprocess
 import src.CNN as CNN
 import src.test as test
@@ -19,14 +18,14 @@ DATASET_FEMALE = os.path.join(os.path.abspath(os.curdir),'Dataset - Gender/Test/
 
 DATASET_18 = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/0-18')
 DATASET_18_55 = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/18-55')
-DATASET_55 = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/55 - 100')
+DATASET_55 = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/55-100')
 
 
 def loadDataset(DATASET_DIR):
-    transforms = transforms.Compose([
-            transforms.Resize([128,128]), #resizing every image into the desired values
-            transforms.RandomHorizontalFlip(), #Flips images horizontally with a probability of 0.5
-            transforms.ToTensor()   #size normalization and conversation to tensor
+    transforms = torchvision.transforms.Compose([
+            torchvision.transforms.Resize([128,128]), #resizing every image into the desired values
+            torchvision.transforms.RandomHorizontalFlip(), #Flips images horizontally with a probability of 0.5
+            torchvision.transforms.ToTensor()   #size normalization and conversation to tensor
         ])     
 
     # Loads the images and labels from the specified folder and applies the given transformation
