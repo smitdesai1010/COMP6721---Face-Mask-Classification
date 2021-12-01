@@ -2,6 +2,13 @@
 
 Get added to our private github repo and download the repository
 
+Updates for Phase 2
+
+- Used a bigger model
+- Decresed learning rate from 0.07 to 0.000001
+- Balanced the dataset as earlier No-mask images were constituting 50% of the dataset
+- Added 10fold and bias evaluation code 
+
 ```
 https://github.com/smitdesai1010/COMP6721---Face-Mask-Classification.git
 ```
