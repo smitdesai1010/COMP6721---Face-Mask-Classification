@@ -7,10 +7,12 @@ def train_model(model, training_data, EPOCH, optimizer, DEVICE):
 
         training_loss = 0
         correct_prediction = 0
+        data_size = 0
 
         for batch in training_data:
             images, labels = batch
             images, labels = images.to(DEVICE), labels.to(DEVICE)
+            data_size += len(images)
 
             predictions = model(images)
 
@@ -22,9 +24,9 @@ def train_model(model, training_data, EPOCH, optimizer, DEVICE):
             training_loss += loss.item()
             correct_prediction += (predictions.argmax(dim=1) == labels).sum().item()
 
-        accuracy = correct_prediction / preprocess.TRAIN_DATA_SIZE
-        training_loss = training_loss / preprocess.TRAIN_DATA_SIZE
-        print(f"Epoch {epoch + 1}: Correct Prediction: {correct_prediction}/{preprocess.TRAIN_DATA_SIZE} and accuracy: {accuracy} and loss: {training_loss}")
+        accuracy = correct_prediction / data_size
+        training_loss = training_loss / data_size
+        print(f"Epoch {epoch + 1}: Correct Prediction: {correct_prediction}/{data_size} and accuracy: {accuracy} and loss: {training_loss}")
 
 
 
