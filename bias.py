@@ -16,9 +16,9 @@ MODEL_FILEPATH = os.path.join(os.path.abspath(os.curdir),'Model/model.pth')
 DATASET_MALE = os.path.join(os.path.abspath(os.curdir),'Dataset - Gender/Test/Male')
 DATASET_FEMALE = os.path.join(os.path.abspath(os.curdir),'Dataset - Gender/Test/Female')
 
-DATASET_18 = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/0-18')
-DATASET_18_55 = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/18-55')
-DATASET_55 = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/55-100')
+DATASET_KIDS = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/0-18')
+DATASET_MEN = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/18-55')
+DATASET_ELDERS = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/55-100')
 
 
 def loadDataset(DATASET_DIR):
@@ -50,9 +50,9 @@ model = CNN.load_model(MODEL_FILEPATH,DEVICE)
 
 MALE = loadDataset(DATASET_MALE)
 FEMALE = loadDataset(DATASET_FEMALE)
-TEEN = loadDataset(DATASET_18)
-MEN = loadDataset(DATASET_18_55)
-OLD = loadDataset(DATASET_55)
+TEEN = loadDataset(DATASET_KIDS)
+MEN = loadDataset(DATASET_MEN)
+OLD = loadDataset(DATASET_ELDERS)
 
 print('MALE')
 evaluate(model, MALE)

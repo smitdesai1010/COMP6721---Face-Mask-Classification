@@ -9,6 +9,18 @@ Updates for Phase 2
 - Balanced the dataset as earlier No-mask images were constituting 50% of the dataset
 - Added 10fold and bias evaluation code 
 
+
+Analysis 
+
+- We saw bias in the following categories: 
+    - MALE (cloth-mask)
+    - MALE (surgical-mask)
+    - OLD  (cloth-mask)
+
+- We lacked images in the following categories:
+    - MALE (FFP2-mask)
+    - TEEN (all categories)
+    - OLD  (all categories)
 ```
 https://github.com/smitdesai1010/COMP6721---Face-Mask-Classification.git
 ```
