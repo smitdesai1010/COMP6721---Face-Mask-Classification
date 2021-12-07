@@ -1,0 +1,73 @@
+(virtual) D:\Workspace\COMP6721---Face-Mask-Classification>python app.py
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param # 
+================================================================
+            Conv2d-1         [-1, 32, 128, 128]             896 
+       BatchNorm2d-2         [-1, 32, 128, 128]              64 
+         LeakyReLU-3         [-1, 32, 128, 128]               0 
+            Conv2d-4         [-1, 32, 128, 128]           9,248 
+       BatchNorm2d-5         [-1, 32, 128, 128]              64 
+         LeakyReLU-6         [-1, 32, 128, 128]               0 
+         MaxPool2d-7           [-1, 32, 64, 64]               0 
+            Conv2d-8           [-1, 64, 64, 64]          18,496 
+       BatchNorm2d-9           [-1, 64, 64, 64]             128 
+        LeakyReLU-10           [-1, 64, 64, 64]               0 
+           Conv2d-11           [-1, 64, 64, 64]          36,928 
+      BatchNorm2d-12           [-1, 64, 64, 64]             128 
+        LeakyReLU-13           [-1, 64, 64, 64]               0 
+        MaxPool2d-14           [-1, 64, 32, 32]               0 
+          Dropout-15                [-1, 65536]               0 
+           Linear-16                 [-1, 1000]      65,537,000 
+             ReLU-17                 [-1, 1000]               0 
+           Linear-18                  [-1, 512]         512,512 
+             ReLU-19                  [-1, 512]               0 
+          Dropout-20                  [-1, 512]               0 
+           Linear-21                    [-1, 4]           2,052 
+             ReLU-22                    [-1, 4]               0 
+================================================================
+Total params: 66,117,516
+Trainable params: 66,117,516
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.19
+Forward/backward pass size (MB): 38.03
+Params size (MB): 252.22
+Estimated Total Size (MB): 290.43
+----------------------------------------------------------------
+None
+Epoch 1: Correct Prediction: 881/1823 and accuracy: 0.4832693362589139 and loss: 0.039483868480709575
+Epoch 2: Correct Prediction: 1169/1823 and accuracy: 0.6412506856829402 and loss: 0.03281429051960554
+Epoch 3: Correct Prediction: 1250/1823 and accuracy: 0.6856829402084477 and loss: 0.028241053362567544
+Epoch 4: Correct Prediction: 1315/1823 and accuracy: 0.7213384530992869 and loss: 0.025194598270914283
+Epoch 5: Correct Prediction: 1369/1823 and accuracy: 0.7509599561162918 and loss: 0.02282048350693561
+Epoch 6: Correct Prediction: 1388/1823 and accuracy: 0.7613823368074603 and loss: 0.021222533855344068
+Epoch 7: Correct Prediction: 1424/1823 and accuracy: 0.7811300054854635 and loss: 0.019989262536797496
+Epoch 8: Correct Prediction: 1438/1823 and accuracy: 0.7888096544157981 and loss: 0.018855106892719152
+Epoch 9: Correct Prediction: 1451/1823 and accuracy: 0.7959407569939659 and loss: 0.018114819150015473
+Epoch 10: Correct Prediction: 1474/1823 and accuracy: 0.8085573230938015 and loss: 0.017171017183946244
+Epoch 11: Correct Prediction: 1481/1823 and accuracy: 0.8123971475589687 and loss: 0.016583306002734586
+Epoch 12: Correct Prediction: 1489/1823 and accuracy: 0.8167855183763028 and loss: 0.015995558643498005
+Epoch 13: Correct Prediction: 1504/1823 and accuracy: 0.8250137136588042 and loss: 0.015472005061637682
+Epoch 14: Correct Prediction: 1514/1823 and accuracy: 0.8304991771804717 and loss: 0.014940009444739487
+Epoch 15: Correct Prediction: 1519/1823 and accuracy: 0.8332419089413056 and loss: 0.014377204013668569
+
+Testing:
+Correct prediction: 269/322 and accuracy: 0.8354037267080745 and loss: 0.024751033657085822
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.80      0.82      0.81        99
+    FFP2-Mask       0.89      0.76      0.82        54
+      No-Mask       0.89      0.92      0.90        86
+Surgical-Mask       0.78      0.81      0.79        83
+
+     accuracy                           0.83       322
+    macro avg       0.84      0.83      0.83       322
+ weighted avg       0.83      0.83      0.83       322
+
+Confusion matrix, without normalization
+[[81  2  5 11]
+ [ 5 41  2  6]
+ [ 5  0 79  2]
+ [10  3  3 67]]
+
+

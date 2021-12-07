@@ -11,12 +11,12 @@ from sklearn.metrics import classification_report
 
 warnings.filterwarnings('always')
 DEVICE = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu") 
-DATASET_DIR = os.path.join(os.path.abspath(os.curdir),'Dataset')
+DATASET_DIR = os.path.join(os.path.abspath(os.curdir),'Dataset\Dataset - Postbias')
 CLASSES = ['Cloth-Mask','FFP2-Mask','No-Mask','Surgical-Mask']
 IMG_SIZE = 128 
 BATCH_SIZE = 32
 SHUFFLE = True
-EPOCH = 10
+EPOCH = 15
 
 # Applying Transformation
 transforms = transforms.Compose([

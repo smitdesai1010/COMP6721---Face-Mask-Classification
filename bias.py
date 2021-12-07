@@ -13,12 +13,12 @@ import matplotlib.pyplot as plt
 DEVICE = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu") 
 MODEL_FILEPATH = os.path.join(os.path.abspath(os.curdir),'Model/model.pth')
 
-DATASET_MALE = os.path.join(os.path.abspath(os.curdir),'Dataset - Gender/Test/Male')
-DATASET_FEMALE = os.path.join(os.path.abspath(os.curdir),'Dataset - Gender/Test/Female')
+DATASET_MALE = os.path.join(os.path.abspath(os.curdir),'Dataset/Dataset - Gender - Postbias/Test/Male')
+DATASET_FEMALE = os.path.join(os.path.abspath(os.curdir),'Dataset/Dataset - Gender - Postbias/Test/Female')
 
-DATASET_KIDS = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/0-18')
-DATASET_MEN = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/18-55')
-DATASET_ELDERS = os.path.join(os.path.abspath(os.curdir),'Dataset - Age/Test/55-100')
+DATASET_KIDS = os.path.join(os.path.abspath(os.curdir),'Dataset/Dataset - Age - Postbias/Test/0-18')
+DATASET_MEN = os.path.join(os.path.abspath(os.curdir),'Dataset/Dataset - Age - Postbias/Test/18-55')
+DATASET_ELDERS = os.path.join(os.path.abspath(os.curdir),'Dataset/Dataset - Age - Postbias/Test/55-100')
 
 
 def loadDataset(DATASET_DIR):

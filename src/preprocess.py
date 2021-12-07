@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import torch, torchvision
 from torchvision import transforms
 
-DATASET_DIR = os.path.join(os.path.abspath(os.curdir),'Dataset')
+DATASET_DIR = os.path.join(os.path.abspath(os.curdir),'Dataset\Dataset - Postbias')
 CLASSES = ['Cloth-Mask','FFP2-Mask','No-Mask','Surgical-Mask']
 IMG_SIZE = 128 
 BATCH_SIZE = 32

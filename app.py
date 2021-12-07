@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 DEVICE = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu") 
 MODEL_FILEPATH = os.path.join(os.path.abspath(os.curdir),'Model/model.pth')
-EPOCH = 10
+EPOCH = 20
 
 
 # Loading training and testing preprocessed data
@@ -20,16 +20,16 @@ testing_data = preprocess.get_testing_data()
 
 
 
-# # Loading the model and uploading it to the system device (CPU or GPU)
-# model = CNN.MODEL2().to(DEVICE)
-# optimizer = torch.optim.Adam(model.parameters(), lr=0.00001)
-# print(summary(model,input_size=(3,preprocess.IMG_SIZE,preprocess.IMG_SIZE)))
+# Loading the model and uploading it to the system device (CPU or GPU)
+model = CNN.MODEL2().to(DEVICE)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.000001)
+print(summary(model,input_size=(3,preprocess.IMG_SIZE,preprocess.IMG_SIZE)))
 
 
 
-# # Training and saving
-# train.train_model(model,training_data,EPOCH,optimizer,DEVICE)
-# CNN.save_model(model,optimizer,MODEL_FILEPATH)
+# Training and saving
+train.train_model(model,training_data,EPOCH,optimizer,DEVICE)
+CNN.save_model(model,optimizer,MODEL_FILEPATH)
 
 
 

@@ -1,0 +1,351 @@
+(virtual) D:\Workspace\COMP6721---Face-Mask-Classification>python 10fold.py
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 914/1930 and accuracy: 0.47357512953367875 and loss: 0.039659804321941314
+Epoch 2: Correct Prediction: 1268/1930 and accuracy: 0.6569948186528497 and loss: 0.03230769683660003
+Epoch 3: Correct Prediction: 1388/1930 and accuracy: 0.7191709844559585 and loss: 0.027151666867300635
+Epoch 4: Correct Prediction: 1467/1930 and accuracy: 0.7601036269430052 and loss: 0.02351692658631913
+Epoch 5: Correct Prediction: 1518/1930 and accuracy: 0.7865284974093264 and loss: 0.021068423554069637
+Epoch 6: Correct Prediction: 1534/1930 and accuracy: 0.794818652849741 and loss: 0.01939919430357187
+Epoch 7: Correct Prediction: 1561/1930 and accuracy: 0.8088082901554404 and loss: 0.01813262997513608
+Epoch 8: Correct Prediction: 1577/1930 and accuracy: 0.8170984455958549 and loss: 0.016892597110160276
+Epoch 9: Correct Prediction: 1616/1930 and accuracy: 0.8373056994818653 and loss: 0.015953956660211394
+Epoch 10: Correct Prediction: 1628/1930 and accuracy: 0.8435233160621761 and loss: 0.014929040092878392
+Epoch 11: Correct Prediction: 1642/1930 and accuracy: 0.8507772020725388 and loss: 0.014132297950087434
+Epoch 12: Correct Prediction: 1656/1930 and accuracy: 0.8580310880829015 and loss: 0.01362790723229937
+Epoch 13: Correct Prediction: 1664/1930 and accuracy: 0.8621761658031089 and loss: 0.013162504908643239
+Epoch 14: Correct Prediction: 1680/1930 and accuracy: 0.8704663212435233 and loss: 0.01247194447202386
+Epoch 15: Correct Prediction: 1693/1930 and accuracy: 0.8772020725388601 and loss: 0.012044151791327975
+
+Testing:
+Correct prediction: 167/215 and accuracy: 0.7767441860465116 and loss: 0.019317514674608096
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.76      0.72      0.74        75
+    FFP2-Mask       0.80      0.62      0.70        32
+      No-Mask       0.80      0.94      0.87        48
+Surgical-Mask       0.78      0.82      0.80        60
+
+     accuracy                           0.78       215
+    macro avg       0.79      0.77      0.78       215
+ weighted avg       0.78      0.78      0.78       215
+
+[[54  4  6 11]
+ [ 7 20  3  2]
+ [ 2  0 45  1]
+ [ 8  1  2 49]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 833/1930 and accuracy: 0.4316062176165803 and loss: 0.04062516664593949
+Epoch 2: Correct Prediction: 1189/1930 and accuracy: 0.616062176165803 and loss: 0.033590443671676164
+Epoch 3: Correct Prediction: 1298/1930 and accuracy: 0.672538860103627 and loss: 0.029411877220776414
+Epoch 4: Correct Prediction: 1398/1930 and accuracy: 0.7243523316062176 and loss: 0.02552066253874586
+Epoch 5: Correct Prediction: 1498/1930 and accuracy: 0.7761658031088083 and loss: 0.02221673609679227
+Epoch 6: Correct Prediction: 1533/1930 and accuracy: 0.794300518134715 and loss: 0.019802806151963268
+Epoch 7: Correct Prediction: 1566/1930 and accuracy: 0.81139896373057 and loss: 0.01868771461316341
+Epoch 8: Correct Prediction: 1592/1930 and accuracy: 0.8248704663212435 and loss: 0.01713320512536894
+Epoch 9: Correct Prediction: 1601/1930 and accuracy: 0.8295336787564767 and loss: 0.01610648883747931
+Epoch 10: Correct Prediction: 1629/1930 and accuracy: 0.844041450777202 and loss: 0.01517396322186129
+Epoch 11: Correct Prediction: 1648/1930 and accuracy: 0.8538860103626943 and loss: 0.01433888013653187
+Epoch 12: Correct Prediction: 1661/1930 and accuracy: 0.8606217616580311 and loss: 0.013780452272434926
+Epoch 13: Correct Prediction: 1673/1930 and accuracy: 0.866839378238342 and loss: 0.013007247262668116
+Epoch 14: Correct Prediction: 1698/1930 and accuracy: 0.8797927461139896 and loss: 0.012409973244901765
+Epoch 15: Correct Prediction: 1713/1930 and accuracy: 0.8875647668393782 and loss: 0.012112483675615775
+
+Testing:
+Correct prediction: 169/215 and accuracy: 0.786046511627907 and loss: 0.017758503348328347
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.76      0.74      0.75        73
+    FFP2-Mask       0.85      0.79      0.81        28
+      No-Mask       0.94      0.88      0.91        56
+Surgical-Mask       0.68      0.78      0.73        58
+
+     accuracy                           0.79       215
+    macro avg       0.81      0.79      0.80       215
+ weighted avg       0.80      0.79      0.79       215
+
+[[54  3  2 14]
+ [ 4 22  0  2]
+ [ 2  0 49  5]
+ [11  1  1 45]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 981/1930 and accuracy: 0.5082901554404146 and loss: 0.039589083565331494
+Epoch 2: Correct Prediction: 1227/1930 and accuracy: 0.6357512953367875 and loss: 0.03241150666395
+Epoch 3: Correct Prediction: 1308/1930 and accuracy: 0.677720207253886 and loss: 0.028204112781761843
+Epoch 4: Correct Prediction: 1352/1930 and accuracy: 0.7005181347150259 and loss: 0.025675932483969575
+Epoch 5: Correct Prediction: 1366/1930 and accuracy: 0.7077720207253886 and loss: 0.023910820545927847
+Epoch 6: Correct Prediction: 1391/1930 and accuracy: 0.7207253886010363 and loss: 0.02251448135610689
+Epoch 7: Correct Prediction: 1396/1930 and accuracy: 0.7233160621761658 and loss: 0.02158857505247383
+Epoch 8: Correct Prediction: 1429/1930 and accuracy: 0.7404145077720208 and loss: 0.020655434520751085
+Epoch 9: Correct Prediction: 1415/1930 and accuracy: 0.7331606217616581 and loss: 0.020031444504471023
+Epoch 10: Correct Prediction: 1439/1930 and accuracy: 0.7455958549222798 and loss: 0.019302011184741796
+Epoch 11: Correct Prediction: 1455/1930 and accuracy: 0.7538860103626943 and loss: 0.018909228635575488
+Epoch 12: Correct Prediction: 1471/1930 and accuracy: 0.7621761658031088 and loss: 0.018056427567734002
+Epoch 13: Correct Prediction: 1476/1930 and accuracy: 0.7647668393782383 and loss: 0.01766238200232155
+Epoch 14: Correct Prediction: 1489/1930 and accuracy: 0.7715025906735752 and loss: 0.016971519929139724
+Epoch 15: Correct Prediction: 1494/1930 and accuracy: 0.7740932642487046 and loss: 0.016630593297395063
+
+Testing:
+Correct prediction: 162/215 and accuracy: 0.7534883720930232 and loss: 0.020047272637832996
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.72      0.76      0.74        79
+    FFP2-Mask       1.00      0.00      0.00        21
+      No-Mask       0.83      0.90      0.86        58
+Surgical-Mask       0.68      0.82      0.75        57
+
+     accuracy                           0.74       215
+    macro avg       0.81      0.62      0.59       215
+ weighted avg       0.77      0.74      0.70       215
+
+[[60  0  5 14]
+ [11  0  4  6]
+ [ 4  0 52  2]
+ [ 8  0  2 47]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 842/1930 and accuracy: 0.43626943005181346 and loss: 0.04027482623263344
+Epoch 2: Correct Prediction: 1225/1930 and accuracy: 0.6347150259067358 and loss: 0.03345664375186584
+Epoch 3: Correct Prediction: 1298/1930 and accuracy: 0.672538860103627 and loss: 0.029141363856705977
+Epoch 4: Correct Prediction: 1360/1930 and accuracy: 0.7046632124352331 and loss: 0.02612021000274105
+Epoch 5: Correct Prediction: 1459/1930 and accuracy: 0.7559585492227979 and loss: 0.023195491816095738
+Epoch 6: Correct Prediction: 1525/1930 and accuracy: 0.7901554404145078 and loss: 0.02057551909913671
+Epoch 7: Correct Prediction: 1545/1930 and accuracy: 0.8005181347150259 and loss: 0.018965929545886776
+Epoch 8: Correct Prediction: 1577/1930 and accuracy: 0.8170984455958549 and loss: 0.017511278020285573
+Epoch 9: Correct Prediction: 1601/1930 and accuracy: 0.8295336787564767 and loss: 0.016604674619096548
+Epoch 10: Correct Prediction: 1611/1930 and accuracy: 0.8347150259067357 and loss: 0.01588557166447911
+Epoch 11: Correct Prediction: 1622/1930 and accuracy: 0.8404145077720208 and loss: 0.01513082854488353
+Epoch 12: Correct Prediction: 1632/1930 and accuracy: 0.8455958549222798 and loss: 0.014291035982302433
+Epoch 13: Correct Prediction: 1665/1930 and accuracy: 0.8626943005181347 and loss: 0.013689425163009623
+Epoch 14: Correct Prediction: 1667/1930 and accuracy: 0.8637305699481865 and loss: 0.01324876781572332
+Epoch 15: Correct Prediction: 1672/1930 and accuracy: 0.8663212435233161 and loss: 0.012757794582164349
+
+Testing:
+Correct prediction: 170/215 and accuracy: 0.7906976744186046 and loss: 0.018017515748046165
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.74      0.79      0.77        72
+    FFP2-Mask       0.84      0.78      0.81        27
+      No-Mask       0.87      0.90      0.88        50
+Surgical-Mask       0.75      0.70      0.72        66
+
+     accuracy                           0.79       215
+    macro avg       0.80      0.79      0.79       215
+ weighted avg       0.79      0.79      0.79       215
+
+[[57  1  2 12]
+ [ 3 21  2  1]
+ [ 3  0 45  2]
+ [14  3  3 46]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 918/1930 and accuracy: 0.47564766839378236 and loss: 0.04052071009275209
+Epoch 2: Correct Prediction: 1274/1930 and accuracy: 0.6601036269430052 and loss: 0.03281636772378121
+Epoch 3: Correct Prediction: 1337/1930 and accuracy: 0.6927461139896373 and loss: 0.027816144666523514
+Epoch 4: Correct Prediction: 1484/1930 and accuracy: 0.7689119170984456 and loss: 0.023519057128095874
+Epoch 5: Correct Prediction: 1536/1930 and accuracy: 0.7958549222797927 and loss: 0.0206654302042383
+Epoch 6: Correct Prediction: 1570/1930 and accuracy: 0.8134715025906736 and loss: 0.01848810895736971
+Epoch 7: Correct Prediction: 1596/1930 and accuracy: 0.8269430051813471 and loss: 0.017108088253075596
+Epoch 8: Correct Prediction: 1613/1930 and accuracy: 0.8357512953367876 and loss: 0.015991727459615995
+Epoch 9: Correct Prediction: 1629/1930 and accuracy: 0.844041450777202 and loss: 0.01508351434697759
+Epoch 10: Correct Prediction: 1657/1930 and accuracy: 0.8585492227979274 and loss: 0.014310722740202987
+Epoch 11: Correct Prediction: 1648/1930 and accuracy: 0.8538860103626943 and loss: 0.013490645108754152
+Epoch 12: Correct Prediction: 1679/1930 and accuracy: 0.8699481865284974 and loss: 0.012952769621048566
+Epoch 13: Correct Prediction: 1703/1930 and accuracy: 0.8823834196891192 and loss: 0.012225506759678144
+Epoch 14: Correct Prediction: 1709/1930 and accuracy: 0.8854922279792746 and loss: 0.011853044097905331
+Epoch 15: Correct Prediction: 1713/1930 and accuracy: 0.8875647668393782 and loss: 0.01142796694151478
+
+Testing:
+Correct prediction: 164/215 and accuracy: 0.7627906976744186 and loss: 0.017353525272635527
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.73      0.74      0.74        70
+    FFP2-Mask       0.95      0.63      0.76        30
+      No-Mask       0.84      0.89      0.87        55
+Surgical-Mask       0.74      0.82      0.78        60
+
+     accuracy                           0.79       215
+    macro avg       0.82      0.77      0.79       215
+ weighted avg       0.79      0.79      0.79       215
+
+[[52  0  6 12]
+ [ 6 19  1  4]
+ [ 5  0 49  1]
+ [ 8  1  2 49]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 796/1931 and accuracy: 0.4122216468151217 and loss: 0.04104471700540915
+Epoch 2: Correct Prediction: 1230/1931 and accuracy: 0.6369756602796478 and loss: 0.03291727149505062
+Epoch 3: Correct Prediction: 1408/1931 and accuracy: 0.7291558777835319 and loss: 0.026827914704935715
+Epoch 4: Correct Prediction: 1457/1931 and accuracy: 0.7545313309166235 and loss: 0.023174822176138643
+Epoch 5: Correct Prediction: 1515/1931 and accuracy: 0.7845675815639565 and loss: 0.02084658414140876
+Epoch 6: Correct Prediction: 1550/1931 and accuracy: 0.8026929052304506 and loss: 0.01901744461195386
+Epoch 7: Correct Prediction: 1565/1931 and accuracy: 0.8104609010875194 and loss: 0.017812419468599672
+Epoch 8: Correct Prediction: 1591/1931 and accuracy: 0.8239254272397721 and loss: 0.016809671376419463
+Epoch 9: Correct Prediction: 1591/1931 and accuracy: 0.8239254272397721 and loss: 0.015851160240321502
+Epoch 10: Correct Prediction: 1623/1931 and accuracy: 0.8404971517348524 and loss: 0.015012534918839422
+Epoch 11: Correct Prediction: 1638/1931 and accuracy: 0.8482651475919213 and loss: 0.014095084507313496
+Epoch 12: Correct Prediction: 1663/1931 and accuracy: 0.8612118073537027 and loss: 0.01361452798532242
+Epoch 13: Correct Prediction: 1659/1931 and accuracy: 0.8591403417918178 and loss: 0.013221444682652687
+Epoch 14: Correct Prediction: 1674/1931 and accuracy: 0.8669083376488866 and loss: 0.012347720474668391
+Epoch 15: Correct Prediction: 1707/1931 and accuracy: 0.8839979285344381 and loss: 0.011777788246313814
+
+Testing:
+Correct prediction: 172/214 and accuracy: 0.8037383177570093 and loss: 0.018999495935217242
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.68      0.82      0.74        60
+    FFP2-Mask       0.83      0.66      0.73        29
+      No-Mask       0.84      0.89      0.86        54
+Surgical-Mask       0.84      0.73      0.78        71
+
+     accuracy                           0.79       214
+    macro avg       0.80      0.77      0.78       214
+ weighted avg       0.79      0.79      0.78       214
+
+[[49  2  6  3]
+ [ 5 19  0  5]
+ [ 4  0 48  2]
+ [14  2  3 52]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 787/1931 and accuracy: 0.4075608493008804 and loss: 0.040698273202905005
+Epoch 2: Correct Prediction: 1244/1931 and accuracy: 0.6442257897462454 and loss: 0.03345725028271628
+Epoch 3: Correct Prediction: 1419/1931 and accuracy: 0.7348524080787157 and loss: 0.027220370083013264
+Epoch 4: Correct Prediction: 1457/1931 and accuracy: 0.7545313309166235 and loss: 0.023772307222584627
+Epoch 5: Correct Prediction: 1505/1931 and accuracy: 0.7793889176592439 and loss: 0.021274853453371947
+Epoch 6: Correct Prediction: 1533/1931 and accuracy: 0.7938891765924392 and loss: 0.019448102153316795
+Epoch 7: Correct Prediction: 1571/1931 and accuracy: 0.813568099430347 and loss: 0.017721949912055918
+Epoch 8: Correct Prediction: 1572/1931 and accuracy: 0.8140859658208183 and loss: 0.016794574316272706
+Epoch 9: Correct Prediction: 1612/1931 and accuracy: 0.8348006214396686 and loss: 0.01576042399080475
+Epoch 10: Correct Prediction: 1626/1931 and accuracy: 0.8420507509062661 and loss: 0.015024092702406296
+Epoch 11: Correct Prediction: 1621/1931 and accuracy: 0.8394614189539099 and loss: 0.014548163426965707
+Epoch 12: Correct Prediction: 1653/1931 and accuracy: 0.8560331434489902 and loss: 0.01379179411265345
+Epoch 13: Correct Prediction: 1680/1931 and accuracy: 0.8700155359917141 and loss: 0.012891671390251939
+Epoch 14: Correct Prediction: 1664/1931 and accuracy: 0.861729673744174 and loss: 0.012721820384773302
+Epoch 15: Correct Prediction: 1707/1931 and accuracy: 0.8839979285344381 and loss: 0.011748909664734356
+
+Testing:
+Correct prediction: 166/214 and accuracy: 0.7757009345794392 and loss: 0.017546415328979492
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.78      0.79      0.79        72
+    FFP2-Mask       0.88      0.72      0.79        29
+      No-Mask       0.89      0.91      0.90        43
+Surgical-Mask       0.78      0.81      0.80        70
+
+     accuracy                           0.81       214
+    macro avg       0.83      0.81      0.82       214
+ weighted avg       0.81      0.81      0.81       214
+
+[[57  3  4  8]
+ [ 0 21  0  8]
+ [ 4  0 39  0]
+ [12  0  1 57]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 905/1931 and accuracy: 0.4686690833764889 and loss: 0.03935204226386664
+Epoch 2: Correct Prediction: 1335/1931 and accuracy: 0.69135163127913 and loss: 0.0312859327110338
+Epoch 3: Correct Prediction: 1412/1931 and accuracy: 0.7312273433454168 and loss: 0.02611581807553861
+Epoch 4: Correct Prediction: 1488/1931 and accuracy: 0.7705851890212325 and loss: 0.02291465679145983
+Epoch 5: Correct Prediction: 1520/1931 and accuracy: 0.7871569135163128 and loss: 0.020681713773820266
+Epoch 6: Correct Prediction: 1546/1931 and accuracy: 0.8006214396685655 and loss: 0.01891124268568346
+Epoch 7: Correct Prediction: 1555/1931 and accuracy: 0.8052822371828068 and loss: 0.017716428086524304
+Epoch 8: Correct Prediction: 1590/1931 and accuracy: 0.8234075608493009 and loss: 0.016830507598350482
+Epoch 9: Correct Prediction: 1604/1931 and accuracy: 0.8306576903158985 and loss: 0.015785494210620053
+Epoch 10: Correct Prediction: 1620/1931 and accuracy: 0.8389435525634387 and loss: 0.014976839561464872
+Epoch 11: Correct Prediction: 1652/1931 and accuracy: 0.8555152770585189 and loss: 0.01431598325642448
+Epoch 12: Correct Prediction: 1647/1931 and accuracy: 0.8529259451061626 and loss: 0.014022054448762377
+Epoch 13: Correct Prediction: 1659/1931 and accuracy: 0.8591403417918178 and loss: 0.01315786692992447
+Epoch 14: Correct Prediction: 1679/1931 and accuracy: 0.8694976696012429 and loss: 0.012703427660039273
+Epoch 15: Correct Prediction: 1693/1931 and accuracy: 0.8767477990678405 and loss: 0.012138691800730886
+
+Testing:
+Correct prediction: 165/214 and accuracy: 0.7710280373831776 and loss: 0.01871087060910519
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.68      0.76      0.71        66
+    FFP2-Mask       0.76      0.81      0.79        27
+      No-Mask       0.92      0.87      0.89        53
+Surgical-Mask       0.80      0.72      0.76        68
+
+     accuracy                           0.78       214
+    macro avg       0.79      0.79      0.79       214
+ weighted avg       0.79      0.78      0.78       214
+
+[[50  4  3  9]
+ [ 2 22  1  2]
+ [ 6  0 46  1]
+ [16  3  0 49]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 1002/1931 and accuracy: 0.518902123252201 and loss: 0.03948933645457817
+Epoch 2: Correct Prediction: 1261/1931 and accuracy: 0.6530295183842568 and loss: 0.03213003316362678
+Epoch 3: Correct Prediction: 1396/1931 and accuracy: 0.7229414810978767 and loss: 0.02681072587981735
+Epoch 4: Correct Prediction: 1462/1931 and accuracy: 0.7571206628689798 and loss: 0.02341887464429479
+Epoch 5: Correct Prediction: 1517/1931 and accuracy: 0.785603314344899 and loss: 0.020851202004317605
+Epoch 6: Correct Prediction: 1550/1931 and accuracy: 0.8026929052304506 and loss: 0.019178284751757757
+Epoch 7: Correct Prediction: 1569/1931 and accuracy: 0.8125323666494044 and loss: 0.017994882404835096
+Epoch 8: Correct Prediction: 1593/1931 and accuracy: 0.8249611600207146 and loss: 0.01693767517542728
+Epoch 9: Correct Prediction: 1605/1931 and accuracy: 0.8311755567063698 and loss: 0.01592712913813954
+Epoch 10: Correct Prediction: 1621/1931 and accuracy: 0.8394614189539099 and loss: 0.015006353329155248
+Epoch 11: Correct Prediction: 1648/1931 and accuracy: 0.8534438114966338 and loss: 0.01415253745836646
+Epoch 12: Correct Prediction: 1665/1931 and accuracy: 0.8622475401346452 and loss: 0.013637977304512945
+Epoch 13: Correct Prediction: 1672/1931 and accuracy: 0.865872604867944 and loss: 0.01304530375890322
+Epoch 14: Correct Prediction: 1692/1931 and accuracy: 0.8762299326773693 and loss: 0.012461611971158798
+Epoch 15: Correct Prediction: 1700/1931 and accuracy: 0.8803728638011393 and loss: 0.011823399797861345
+
+Testing:
+Correct prediction: 172/214 and accuracy: 0.8037383177570093 and loss: 0.019088472857653537
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.78      0.77      0.78        70
+    FFP2-Mask       0.81      0.62      0.70        21
+      No-Mask       0.88      0.92      0.90        48
+Surgical-Mask       0.78      0.83      0.81        75
+
+     accuracy                           0.81       214
+    macro avg       0.81      0.78      0.80       214
+ weighted avg       0.81      0.81      0.81       214
+
+[[54  1  4 11]
+ [ 2 13  1  5]
+ [ 3  0 44  1]
+ [10  2  1 62]]
+--------------------------------------------------------
+--------------------------------------------------------
+Epoch 1: Correct Prediction: 875/1931 and accuracy: 0.4531330916623511 and loss: 0.04074146943904772
+Epoch 2: Correct Prediction: 1207/1931 and accuracy: 0.625064733298809 and loss: 0.03347709353633151
+Epoch 3: Correct Prediction: 1283/1931 and accuracy: 0.6644225789746245 and loss: 0.028649317020582203
+Epoch 4: Correct Prediction: 1425/1931 and accuracy: 0.7379596064215432 and loss: 0.02471450167206024
+Epoch 5: Correct Prediction: 1491/1931 and accuracy: 0.7721387881926463 and loss: 0.022095836934371664
+Epoch 6: Correct Prediction: 1509/1931 and accuracy: 0.781460383221129 and loss: 0.020436874067517898
+Epoch 7: Correct Prediction: 1560/1931 and accuracy: 0.8078715691351631 and loss: 0.018959462256829148
+Epoch 8: Correct Prediction: 1587/1931 and accuracy: 0.8218539616778872 and loss: 0.01762175748287736
+Epoch 9: Correct Prediction: 1595/1931 and accuracy: 0.8259968928016572 and loss: 0.01679827184148677
+Epoch 10: Correct Prediction: 1588/1931 and accuracy: 0.8223718280683584 and loss: 0.016096129403837846
+Epoch 11: Correct Prediction: 1621/1931 and accuracy: 0.8394614189539099 and loss: 0.015107993185057164
+Epoch 12: Correct Prediction: 1644/1931 and accuracy: 0.8513723459347489 and loss: 0.01447809919336804
+Epoch 13: Correct Prediction: 1661/1931 and accuracy: 0.8601760745727602 and loss: 0.013816641756501734
+Epoch 14: Correct Prediction: 1680/1931 and accuracy: 0.8700155359917141 and loss: 0.013235026323258228
+Epoch 15: Correct Prediction: 1687/1931 and accuracy: 0.8736406007250129 and loss: 0.012567595527123936
+
+Testing:
+Correct prediction: 173/214 and accuracy: 0.8084112149532711 and loss: 0.01733309573659273
+               precision    recall  f1-score   support
+
+   Cloth-Mask       0.79      0.71      0.75        70
+    FFP2-Mask       0.88      0.84      0.86        25
+      No-Mask       0.94      0.85      0.90        55
+Surgical-Mask       0.75      0.91      0.82        64
+
+     accuracy                           0.82       214
+    macro avg       0.84      0.83      0.83       214
+ weighted avg       0.83      0.82      0.82       214
+
+[[50  3  2 15]
+ [ 2 21  1  1]
+ [ 5  0 47  3]
+ [ 6  0  0 58]]
