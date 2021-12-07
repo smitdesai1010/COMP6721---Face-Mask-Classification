@@ -26,7 +26,6 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.000001)
 print(summary(model,input_size=(3,preprocess.IMG_SIZE,preprocess.IMG_SIZE)))
 
 
-
 # Training and saving
 train.train_model(model,training_data,EPOCH,optimizer,DEVICE)
 CNN.save_model(model,optimizer,MODEL_FILEPATH)
