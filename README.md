@@ -10,17 +10,30 @@ Updates for Phase 2
 - Added 10fold and bias evaluation code 
 
 
-Analysis 
+### Analysis 
 
-- We saw bias in the following categories: 
-    - MALE (cloth-mask)
-    - MALE (surgical-mask)
-    - OLD  (cloth-mask)
+- Bias
+    - We saw bias in the following categories: 
+        - MALE (cloth-mask)
+        - MALE (surgical-mask)
+        - OLD  (cloth-mask)
 
-- We lacked images in the following categories:
-    - MALE (FFP2-mask)
-    - TEEN (all categories)
-    - OLD  (all categories)
+    - We lacked images in the following categories:
+        - MALE (FFP2-mask)
+        - TEEN (all categories)
+        - OLD  (all categories)
+
+- k-fold
+    - Fixed train-test split: 
+        - Accuracy: 95
+    - 10fold Prebias:
+        - Accuracy: 88.6 
+        - Standard Deviation: 3.16
+    - 10fold Postbias:
+        - Accuracy: 92.1 
+        - Standard Deviation: 1.75
+
+
 ```
 https://github.com/smitdesai1010/COMP6721---Face-Mask-Classification.git
 ```
