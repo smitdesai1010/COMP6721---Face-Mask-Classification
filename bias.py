@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # Loading Model and datasets 
 # Copy and paste the model from workspace directory
 DEVICE = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu") 
-MODEL_FILEPATH = os.path.join(os.path.abspath(os.curdir),'Model/model.pth')
+MODEL_FILEPATH = os.path.join(os.path.abspath(os.curdir),'Model/model - postbias.pth')
 
 DATASET_MALE = os.path.join(os.path.abspath(os.curdir),'Dataset/Dataset - Gender - Postbias/Test/Male')
 DATASET_FEMALE = os.path.join(os.path.abspath(os.curdir),'Dataset/Dataset - Gender - Postbias/Test/Female')
@@ -42,8 +42,8 @@ def evaluate(model, DATA):
 
     print(classification_report(labels_N_prediction[0], labels_N_prediction[1], target_names = preprocess.CLASSES))
     conf_matrix = confusion_matrix(labels_N_prediction[0], labels_N_prediction[1])
-    plt.figure(figsize=(10, 10))
-    test.display_confusion_matrix(conf_matrix, preprocess.CLASSES)
+    # plt.figure(figsize=(10, 10))
+    # test.display_confusion_matrix(conf_matrix, preprocess.CLASSES)
 
 
 model = CNN.load_model(MODEL_FILEPATH,DEVICE)
